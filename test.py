@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error
 
 import lightgbm as lgb
 
-print('Loading data...')
+print('Loading data2...')#这里改成data2，且添加了注释
 # load or create your dataset
 binary_example_dir = Path(__file__).absolute().parents[1] / 'binary_classification'
 df_train = pd.read_csv(str(binary_example_dir / 'binary.train'), header=None, sep='\t')
